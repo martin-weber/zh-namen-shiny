@@ -36,7 +36,10 @@ shinyUI(
         tags$li(
           tags$a(href="https://data.stadt-zuerich.ch/dataset/pd-stapo-hundenamen", 
                  "Vornamen der aktuellen Wohnbevölkerung der Stadt Zürich"))
-        )
+        ),
+      tags$p("Source Code: ", 
+             tags$a(href="https://github.com/martin-weber/zh-namen-shiny", 
+                    "https://github.com/martin-weber/zh-namen-shiny"))
       )
     )
   )
